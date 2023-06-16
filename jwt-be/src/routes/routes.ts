@@ -3,6 +3,6 @@ import controller = require('controllers')
 
 export const Routers = new Router()
 
-Routers.get('/users', controller.user.getUsers) 
+Routers.get('/users/:email', controller.user.getUser) 
 
   

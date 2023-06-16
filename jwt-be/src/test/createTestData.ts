@@ -11,6 +11,8 @@ export class testData {
     .into(User)
     .values([
         { email: "test@gmail.com", password: "test123"}, 
+        { email: "test1@gmail.com", password: "test111"}, 
+        { email: "test2@gmail.com", password: "test222"},
      ])
     .execute()
     

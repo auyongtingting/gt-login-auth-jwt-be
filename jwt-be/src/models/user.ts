@@ -18,7 +18,6 @@ export class User {
 }
 
 export const userSchema = {
-    id: { type: "number", required: true, example: 1 },
     email: { type: "string", required: true, example: "Update RESTful APIs" },
     password: { type: "string", required: true, example: "Update RESTful APIs" }
 }
